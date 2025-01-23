@@ -186,26 +186,5 @@ padding:20px;
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'Nunito';
-    src: url('assets/font-awesome-4.1.0/fonts/Nunito-VariableFont_wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('assets/font-awesome-4.1.0/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-    font-family: 'Nunito', sans-serif;
-}
-
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
-}
 
 }

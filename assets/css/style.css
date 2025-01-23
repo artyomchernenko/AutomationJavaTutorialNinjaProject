@@ -174,7 +174,7 @@ padding:20px;
 }
 @font-face {
     font-family: 'TextFont';
-    src: url('/assets/fonts/Nunito-VariableFont_wght.ttf') format('woff2'),
+    src: url('AutomationJavaTutorialNinjaProject/assets/fonts/Nunito-VariableFont_wght.ttf') format('woff2'),
          url('/assets/fonts/MyFont-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;

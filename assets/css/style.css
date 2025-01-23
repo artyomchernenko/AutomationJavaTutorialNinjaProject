@@ -174,7 +174,7 @@ padding:20px;
 }
 @font-face {
     font-family: 'TextFont';
-    src: url('/Users/artyomchernenko/Desktop/gitHub/WebSite/assets/font-awesome-4.1.0/fonts/Nunito-VariableFont_wght.ttf') format('woff2'),
+    src: url('/assets/font-awesome-4.1.0/fonts/Nunito-VariableFont_wght.ttf') format('woff2'),
          url('assets/fonts/MyFont-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;

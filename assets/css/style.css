@@ -162,37 +162,23 @@ border: 1px solid #e1e1e1;
 font-size:20px;
 padding:20px;
 }
-@font-face {
-    font-family: 'TextFont';
-    src: url('assets/font-awesome-4.1.0/fonts/Nunito-VariableFont_wght.ttf') format('woff2'),
-         url('assets/fonts/MyFont-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'HeadFont';
-    src: url('assets/font-awesome-4.1.0/fonts/Montserrat-VariableFont_wght.ttf') format('woff2'),
-         url('assets/fonts/MyFont-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 body {
-    font-family: 'Montserrat', sans-serif; /* Основной шрифт Montserrat */
+    font-family: 'Montserrat', sans-serif; 
 }
 
 h1, h2, h3 {
-    font-family: 'Nunito', sans-serif; /* Для заголовков используем Nunito */
+    font-family: 'Nunito', sans-serif;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400; /* Используем толщину 400 */
+    font-weight: 400;
 }
 
 strong {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400; /* Используем жирный стиль */
+    font-weight: 400; 
 }
 
 

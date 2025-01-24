@@ -51,54 +51,88 @@
 <section id="about" class="text-center">
     <div class="container">
         <div class="row pad-top">
-            <div class="col-md-6 text-center" style="margin-left: -20px;">
+            <!-- Image Section -->
+            <div class="col-md-6 text-center">
                 <img src="assets/img/GitHubProfile.jpeg" alt="Project Screenshot" 
-                style="margin-left: -222px; width:100%; max-width:453px; border-radius:10px; border: 1px solid black;">
+                     class="project-image">
             </div>
-            <div style="text-align:left">
-                <h2 style="margin-top";>MY AUTOMATION PROJECT</h2>
+            
+            <!-- Text and Video Section -->
+            <div class="col-md-6 text-left">
+                <h2>MY AUTOMATION PROJECT</h2>
                 <br>
-                <p >
-                    This project was developed using the website <a href="http://tutorialsninja.com/demo/index.php"> TutorialsNinja</a>,
-                     which was specifically designed as a demo platform for electronics stores.
-                    <br>
+                <p>
+                    This project was developed using the website 
+                    <a href="http://tutorialsninja.com/demo/index.php" target="_blank">TutorialsNinja</a>, 
+                    which was specifically designed as a demo platform for electronics stores.
+                </p>
+                <p>
                     It covers the entire process of purchasing electronics and demonstrates the core features and functionalities 
                     of such an online store, providing a comprehensive experience to practice scenarios commonly encountered in real-world projects.
                 </p>
-                <p>
-                    <div class="video-container">
-                        <a href="https://www.youtube.com/watch?v=IWsQ7KigAig" target="_blank">
-                            <iframe
-                                class="video"
-                                src="https://www.youtube.com/embed/IWsQ7KigAig"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
-                        </a>
-                    </div>
-                    <style>.video-container {
-                        width: 500px; 
-                        height: 281px; 
-                        border: 1px solid black; 
-                        border-radius: 10px; 
-                        overflow: hidden; 
-                    }
-                    .video {
-                        width: 100%;
-                        height: 100%;
-                    }
-                    </style>
-                </p>
-                <p>
+                
+                <!-- Video Section -->
+                <div class="video-container">
+                    <iframe
+                        class="video"
+                        src="https://www.youtube.com/embed/IWsQ7KigAig"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <!-- GitHub Button -->
+                <div class="github-link">
                     <a href="https://github.com/artyomchernenko/TutorialsNinjaAutomation.git" target="_blank">
-                        <button class="btn btn-primary btn-s" style="margin-right: 100px;">Click to view the project on GitHub</button>
+                        <button class="btn btn-primary">Click to view the project on GitHub</button>
                     </a>
-                </p>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+<style>
+    .project-image {
+        width: 100%;
+        max-width: 453px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+    .video-container {
+        width: 100%;
+        max-width: 500px;
+        height: 281px;
+        border: 1px solid black;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 20px 0;
+    }
+
+    .video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .github-link {
+        margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+        .project-image {
+            margin: 0 auto;
+        }
+
+        .video-container {
+            max-width: 100%;
+            height: auto;
+            aspect-ratio: 16/9;
+        }
+    }
+</style>
+
 <!--END SECTION-->
 <!--DETAILS SECTION-->
     <section id="details"  >

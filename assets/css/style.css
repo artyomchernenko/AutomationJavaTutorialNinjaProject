@@ -182,7 +182,7 @@ strong {
     font-weight: 800; 
 }
 .navbar-brand {
-    font-family: Arial, sans-serif;
+    font-family: Nunito, sans-serif;
     font-weight: lighter; /* Используйте "lighter" для самого тонкого веса */
     font-size: 24px;
     color: #333;

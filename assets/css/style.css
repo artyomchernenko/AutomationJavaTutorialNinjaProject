@@ -184,7 +184,7 @@ strong {
 }
 .navbar-brand {
     font-family: Nunito, sans-serif;
-    font-weight: lighter; 
+    font-weight: bold; 
     font-size: 24px;
     color: #333;
 }

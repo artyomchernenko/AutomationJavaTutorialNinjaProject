@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 body {
-    font-family: 'TextFont'
+    font-family: 'Nunito'
 	
    
 }
@@ -185,6 +185,15 @@ padding:20px;
          url('assets/fonts/MyFont-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-<uniquifier> {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 }

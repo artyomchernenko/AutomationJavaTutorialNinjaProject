@@ -171,3 +171,18 @@ h1, h2, h3, h4, h5, h6{
     font-family: Montserrat, Arial,
     sans-serif;
 }
+.photo {
+    width: 100%; 
+    max-width: 453px;
+    border-radius: 10px; 
+    border: 1px solid black;
+    margin-left: -222px; 
+}
+
+
+@media (max-width: 768px) {
+    .photo {
+        margin-left: 8px; /* Сдвиг вправо на мобильных */
+    }
+}
+

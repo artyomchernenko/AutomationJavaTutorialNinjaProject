@@ -189,22 +189,22 @@ h1, h2, h3, h4, h5, h6{
 @media (max-width: 768px) {
     .video-container {
         position: relative;
-        width: 80%; /* Сужаем контейнер */
-        max-width: 280px; /* Делаем уже на мобильных */
+        width: 80%; /* Сделаем уже */
+        max-width: 280px; /* Ограничим ширину */
         margin: 0 auto;
         border: 1px solid black;
         border-radius: 10px;
         overflow: hidden;
-        height: 0;
-        padding-top: 56.25%; /* 16:9 aspect ratio */
+        height: auto; /* Удаляем height: 0 */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .video-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
         width: 100%;
-        height: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
     }
 }
 

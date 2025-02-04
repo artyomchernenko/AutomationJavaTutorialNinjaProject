@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, h6{
 @media (max-width: 768px) {
     .video-container {
         width: 100%; /* Контейнер занимает всю ширину экрана */
-        max-width: 340px; /* Максимальная ширина контейнера */
+        max-width: 560px; /* Максимальная ширина контейнера */
         height: auto; /* Высота будет пропорциональной */
         border: 1px solid black; /* Чёрная рамка */
         border-radius: 10px; /* Скруглённые углы */

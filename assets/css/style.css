@@ -189,22 +189,18 @@ h1, h2, h3, h4, h5, h6{
 @media (max-width: 768px) {
     .video-container {
         position: relative;
-        width: 80%; /* Сделаем уже */
-        max-width: 280px; /* Ограничим ширину */
+        width: 80%; /* Контейнер уже */
+        max-width: 320px; /* Ограничиваем ширину */
         margin: 0 auto;
         border: 1px solid black;
         border-radius: 10px;
         overflow: hidden;
-        height: auto; /* Удаляем height: 0 */
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        height: auto;
     }
 
     .video-container iframe {
         width: 100%;
-        height: auto;
-        aspect-ratio: 16 / 9;
+        height: 180px; /* Фиксированная высота */
     }
 }
 

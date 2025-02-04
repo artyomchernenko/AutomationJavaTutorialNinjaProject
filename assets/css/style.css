@@ -187,18 +187,18 @@ h1, h2, h3, h4, h5, h6{
 }
 @media (max-width: 768px) {
     .video-container {
-        width: 100%; /* Контейнер занимает всю ширину экрана */
-        max-width: 560px; /* Максимальная ширина контейнера */
-        height: auto; /* Высота будет пропорциональной */
-        border: 1px solid black; /* Чёрная рамка */
-        border-radius: 10px; /* Скруглённые углы */
-        overflow: hidden; /* Скрываем выходящее за рамки */
-        margin: 0 auto; /* Центрируем контейнер */
+        width: 90%;
+        max-width: 320px;
+        margin: 0 auto;
+        border: 1px solid black;
+        border-radius: 10px;
+        overflow: hidden;
     }
 
-    .video {
-        width: 100%; /* Видео растягивается по ширине контейнера */
-        height: auto; /* Высота рассчитывается автоматически */
+    .video-container iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
     }
 }
 
